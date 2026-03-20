@@ -6,9 +6,8 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 
 ## 다운로드 방법
 
-아래 목록에서 원하는 플러그인의 **다운로드 링크**를 클릭하세요.  
-파일이 열리면 **우클릭 → 다른 이름으로 저장**으로 `.js` 파일을 받고  
-프로젝트의 `js/plugins` 폴더에 넣은 뒤 플러그인 매니저에서 추가하면 됩니다.
+아래 목록에서 원하는 플러그인의 **다운로드** 링크를 클릭하면 `.js` 파일이 바로 다운로드됩니다.  
+다운로드된 파일을 프로젝트의 `js/plugins` 폴더에 넣은 뒤 플러그인 매니저에서 추가하면 됩니다.
 
 ---
 
@@ -16,10 +15,10 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 
 | 플러그인 | 버전 | 설명 | 다운로드 |
 |----------|------|------|----------|
-| Akena_Debug | v1.00 | 디버그 뷰어 — 파티 HP/MP, 변수, 스위치 실시간 확인 (F10 토글) | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Debug.js) |
-| Akena_EventHelper | v1.00 | 다수의 스위치/변수 조건을 한 번에 평가 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_EventHelper.js) |
-| Akena_Message_ImageShow | v1.0 | 메시지와 함께 이미지 표시 (L/C/R 배치, 페이드, 화자 강조 지원) | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Message_ImageShow.js) |
-| Akena_BattleHitBalloon | v1.0 | 전투 중 피격 시 액터 위에 말풍선 이펙트 표시 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_BattleHitBalloon.js) |
+| Akena_Debug | v1.00 | 디버그 뷰어 — 파티 HP/MP, 변수, 스위치 실시간 확인 (F10 토글) | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_Debug.js) |
+| Akena_EventHelper | v1.00 | 다수의 스위치/변수 조건을 한 번에 평가 | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_EventHelper.js) |
+| Akena_Message_ImageShow | v1.0 | 메시지와 함께 이미지 표시 (L/C/R 배치, 페이드, 화자 강조 지원) | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_Message_ImageShow.js) |
+| Akena_BattleHitBalloon | v1.0 | 전투 중 피격 시 액터 위에 말풍선 이펙트 표시 | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_BattleHitBalloon.js) |
 
 ---
 
