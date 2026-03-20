@@ -2,6 +2,7 @@
  * @target MZ
  * @plugindesc (v1.00) 디버그 뷰어: 파티 HP/MP · 변수 · 스위치 (F10 토글) <Akena_Debug>
  * @author Akena with GPTS
+ * @version 1.00
  *
  * @help
  * v1.00 - 최초 제작
