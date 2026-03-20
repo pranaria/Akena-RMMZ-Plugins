@@ -3,6 +3,7 @@
  * @target MZ
  * @plugindesc (v1.0) 메시지와 함께 이미지 열기/닫기 (L/C/R 영역 배치 · 자동축소/페이드 · 화자강조 Brightness · FOCUS 지원) <Akena_Message_ImageShow>
  * @author Akena with GPTS
+ * @version 1.0
  *
  * @help
  * ========================================================================
