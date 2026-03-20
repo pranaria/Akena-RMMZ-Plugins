@@ -1,8 +1,8 @@
 /*:
  * @target MZ
- * @plugindesc (v1.00) 다수의 스위치/변수 조건을 한 번에 평가 <Akena_EventHelper>
+ * @plugindesc (v1.0) 다수의 스위치/변수 조건을 한 번에 평가 <Akena_EventHelper>
  * @author Akena
- * @version 1.00
+ * @version 1.0
  *
  * @help
  * ■ 개요
