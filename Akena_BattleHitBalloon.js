@@ -4,8 +4,9 @@
 
 /*:
  * @target MZ
- * @plugindesc 전투 중 피격 시 액터 위에 말풍선 이펙트를 표시합니다.
+ * @plugindesc (v1.0) 전투 중 피격 시 액터 위에 말풍선 이펙트를 표시합니다.
  * @author Akena with Claude
+ * @version 1.0
  *
  * @param balloonType
  * @text 말풍선 종류
