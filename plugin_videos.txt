@@ -1,0 +1,12 @@
+# 30
+Akena_Debug=https://youtu.be/N4IXREfZmMA
+# 31
+Akena_EventHelper=https://youtu.be/I1kQQHx8qIE
+# 32
+Akena_Message_ImageShow=https://youtu.be/ZOWB6Uzssgs
+# 33
+Akena_BattleHitBalloon=https://youtu.be/kQdxnEO7gMk
+# 34
+Akena_BossHPBar=https://youtu.be/l3NdH-vltdg
+Akena_EnemyIdleFloat=https://youtu.be/l3NdH-vltdg
+Akena_SideviewActorPosition=https://youtu.be/l3NdH-vltdg
