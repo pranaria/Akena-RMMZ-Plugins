@@ -23,6 +23,7 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 | Akena_SideviewActorPosition | v1.0 | 사이드뷰 전투 액터 위치를 해상도(Graphics.boxWidth/Height) 기반으로 동적 계산하여 배치 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_SideviewActorPosition.js) |
 | Akena_EnemyIdleFloat | v1.1 | 전투 중 몬스터 스프라이트에 사인파 기반 상하 부유 애니메이션 적용 — 랜덤 위상으로 각 몬스터 독립적으로 움직임 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_EnemyIdleFloat.js) |
 | Akena_ItemPopup | v1.0 | 아이템/무기/방어구/골드 획득 시 화면 상단 전체폭 팝업 표시 — 큐 기반 순차 표시, 색상/투명도/메시지 커스터마이징 가능 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_ItemPopup.js) |
+| Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
 
 ---
 
