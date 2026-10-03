@@ -6,7 +6,7 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 
 ## 다운로드 방법
 
-아래 목록에서 원하는 플러그인의 **다운로드** 링크를 클릭하면 `.js` 파일이 바로 다운로드됩니다.  
+아래 **다운로드** 링크는 `main` 브랜치의 최신 `.js` 파일을 엽니다. 코드가 화면에 표시되면 `Ctrl+S`로 저장하고, 파일명과 `.js` 확장자를 유지하세요.
 다운로드된 파일을 프로젝트의 `js/plugins` 폴더에 넣은 뒤 플러그인 매니저에서 추가하면 됩니다.
 
 ---
@@ -15,14 +15,15 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 
 | 플러그인 | 버전 | 설명 | 다운로드 |
 |----------|------|------|----------|
-| Akena_Debug | v1.0 | 디버그 뷰어 — 파티 HP/MP, 변수, 스위치 실시간 확인 (F10 토글) | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_Debug.js) |
-| Akena_EventHelper | v1.0 | 다수의 스위치/변수 조건을 한 번에 평가 | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_EventHelper.js) |
-| Akena_Message_ImageShow | v1.0 | 메시지와 함께 이미지 표시 (L/C/R 배치, 페이드, 화자 강조 지원) | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_Message_ImageShow.js) |
-| Akena_BattleHitBalloon | v1.0 | 전투 중 피격 시 액터 위에 말풍선 이펙트 표시 | [다운로드](https://github.com/pranaria/Akena-RMMZ-Plugins/releases/download/v1.0/Akena_BattleHitBalloon.js) |
+| Akena_Debug | v1.0 | 디버그 뷰어 — 파티 HP/MP, 변수, 스위치 실시간 확인 (F10 토글) | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Debug.js) |
+| Akena_EventHelper | v1.0 | 다수의 스위치/변수 조건을 한 번에 평가 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_EventHelper.js) |
+| Akena_Message_ImageShow | v1.0 | 메시지와 함께 이미지 표시 (L/C/R 배치, 페이드, 화자 강조 지원) | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Message_ImageShow.js) |
+| Akena_BattleHitBalloon | v1.0 | 전투 중 피격 시 액터 위에 말풍선 이펙트 표시 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_BattleHitBalloon.js) |
 | Akena_BossHPBar | v3.0 | 전투 중 보스 HP바를 화면 상단에 표시 — 다중 보스 세로 스택, 이름 자동 축소, 전투 중 소환 감지, 메모리 자동 정리 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_BossHPBar.js) |
 | Akena_SideviewActorPosition | v1.0 | 사이드뷰 전투 액터 위치를 해상도(Graphics.boxWidth/Height) 기반으로 동적 계산하여 배치 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_SideviewActorPosition.js) |
 | Akena_EnemyIdleFloat | v1.1 | 전투 중 몬스터 스프라이트에 사인파 기반 상하 부유 애니메이션 적용 — 랜덤 위상으로 각 몬스터 독립적으로 움직임 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_EnemyIdleFloat.js) |
 | Akena_ItemPopup | v1.0 | 아이템/무기/방어구/골드 획득 시 화면 상단 전체폭 팝업 표시 — 큐 기반 순차 표시, 색상/투명도/메시지 커스터마이징 가능 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_ItemPopup.js) |
+| Akena_CharacterScale | v1.0 | 캐릭터 크기 커스텀 — 등록한 이미지의 주인공·동료·NPC를 설정한 배율로 일괄 확대·축소 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_CharacterScale.js) |
 | Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
 
 ---
