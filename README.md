@@ -25,7 +25,16 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 | Akena_ItemPopup | v1.0 | 아이템/무기/방어구/골드 획득 시 화면 상단 전체폭 팝업 표시 — 큐 기반 순차 표시, 색상/투명도/메시지 커스터마이징 가능 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_ItemPopup.js) |
 | Akena_CharacterScale | v1.0 | 캐릭터 크기 커스텀 — 등록한 이미지의 주인공·동료·NPC를 설정한 배율로 일괄 확대·축소 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_CharacterScale.js) |
 | Akena_TitleImages | — | 타이틀 이미지 커스텀 — 배경·로고·메뉴 버튼 이미지 교체 및 배치 조정, 기본·선택 이미지와 메뉴 표시 설정 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_TitleImages.js) |
+| Akena_Camera | — | 카메라 모드 커스텀 — 기본·부드러운 추적·항상 중앙 선택, 부드러운 추적률 조절, 항상 중앙 모드의 맵 밖 검정 표시 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Camera.js) |
 | Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
+
+---
+
+## 카메라 모드 사용
+
+- 시작 모드에서 기본, 부드러운 추적, 항상 중앙 중 하나를 선택합니다.
+- 추적률은 부드러운 추적 모드에만 적용됩니다. 낮을수록 카메라가 늦게 따라옵니다.
+- 기본과 부드러운 추적은 맵 가장자리 제한을 유지합니다. 항상 중앙은 플레이어를 중앙에 유지하고 비루프 맵 밖을 검정으로 표시합니다.
 
 ---
 
