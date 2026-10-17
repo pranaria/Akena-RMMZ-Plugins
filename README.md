@@ -27,6 +27,7 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 | Akena_TitleImages | — | 타이틀 이미지 커스텀 — 배경·로고·메뉴 버튼 이미지 교체 및 배치 조정, 기본·선택 이미지와 메뉴 표시 설정 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_TitleImages.js) |
 | Akena_Camera | — | 카메라 모드 커스텀 — 기본·부드러운 추적·항상 중앙 선택, 부드러운 추적률 조절, 항상 중앙 모드의 맵 밖 검정 표시 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Camera.js) |
 | Akena_CameraScene | — | 카메라 연출 — 목표 좌표로 이동·확대·유지·복귀, 대사형 연출과 단계별 시간·배율 설정, 즉시 취소·복원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_CameraScene.js) |
+| Akena_Message_Custom | v1.0 | 대화창 커스텀 — 이미지 한 장으로 본문·이름창·선택지 꾸미기, 창 크기·글자 여백 자동 처리 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Message_Custom.js) |
 | Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
 
 ---
@@ -48,6 +49,19 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 - **즉시 취소·복원**으로 진행 중인 연출을 끝내고 화면과 입력 잠금을 복원할 수 있습니다.
 - 맵 가장자리에서는 화면 이동이 제한됩니다. 연출 중에는 다른 화면 스크롤·확대·플레이어 강제 이동을 겹치지 마세요.
 - `Akena_Camera`와 함께 쓰는 경우에만 해당 플러그인 아래에 배치합니다. 다른 카메라 플러그인과의 호환성은 별도 확인이 필요합니다.
+
+---
+
+## 대화창 커스텀 사용
+
+- 사용 영상: [Custom Message Windows in RPG Maker MZ | MZ Plugin 41](https://www.youtube.com/watch?v=PySFkptQo0U)
+- `Akena_Message_Custom.js`를 `js/plugins`에 넣고 플러그인 관리자에서 추가해 ON으로 설정합니다.
+- **JS 파일만 제공합니다.** PNG는 직접 준비해 `img/pictures` 또는 그 하위 폴더에 넣고 관리자에서 **프레임 이미지**로 선택합니다. 특정 하위 폴더명은 필수가 아닙니다. 완성 게임 배포 시 선택한 PNG와 사용한 하위 폴더도 포함해야 합니다.
+- 기본 **텍스트 표시·화자 이름·선택지 표시**를 그대로 사용합니다. 본문·이름창·선택지에 같은 이미지 한 장을 적용하며, 별도 플러그인 명령은 없습니다. 이미지 초기값은 비어 있고 미지정·누락 시 기본 MZ 창을 사용합니다.
+- 이미지를 표시하려면 텍스트 표시와 선택지 표시의 배경을 **창(Window)** 으로 설정합니다. **어둡게(Dim)·투명(Transparent)** 은 커스텀 이미지의 테두리와 배경 모두 표시하지 않고 기본 MZ 방식으로 출력합니다.
+- 이미지 예제 크기는 **1280×220**이며 필수 규격은 아닙니다. 원본의 바깥 **32px**를 테두리, 가운데를 글자 배경으로 준비하세요. 고정32px 기준을 쓰려면 가로·세로 모두 **65px 이상**으로 만드세요.
+- 모양을 유지할 장식은 **각 모서리32×32px 안**에 그립니다. 네 모서리는 보존하고 위·아래 변은 가로로, 왼쪽·오른쪽 변은 세로로, 가운데 배경은 가로·세로로 늘립니다. 큰 장식·중앙을 침범하는 그림·이미지 안의 문자는 피하세요. 임의 이미지의 글자 안전 영역을 자동 인식하는 기능은 아닙니다.
+- 창 크기·위치·글자 여백은 내부에서 처리하며 본문4줄 공간을 확보합니다. 숫자/아이템 입력창과 메뉴는 변경하지 않습니다. 같은 메시지 창을 변경하는 다른 플러그인과 함께 쓸 때는 별도 호환성 확인이 필요합니다.
 
 ---
 
