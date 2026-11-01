@@ -30,6 +30,7 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 | Akena_Message_Custom | v1.0 | 대화창 커스텀 — 이미지 한 장으로 본문·이름창·선택지 꾸미기, 창 크기·글자 여백 자동 처리 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Message_Custom.js) |
 | Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
 | Akena_PointAndClick | — | 포인트 앤 클릭 — 그림의 지정 영역에 마우스를 올리면 표식을 표시하고 클릭하면 맵 이벤트 실행, 이벤트 페이지로 조사 완료 관리 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_PointAndClick.js) |
+| Akena_Fog | — | 맵별 원형·손전등 시야 제한 — 거리별 명암, 부드러운 방향 전환, 별도 이미지 불필요 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Fog.js) |
 
 ---
 
@@ -77,6 +78,19 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 - 영역은 화면 좌표의 사각형이며 표식은 그 중심에 표시합니다. 배경 그림이나 카메라의 이동·확대를 따라가지 않습니다. 영역이 겹치면 이벤트 ID가 큰 대상 하나가 우선합니다.
 - `<area>` 맵에서는 캐릭터 이동과 맵 클릭 이동을 차단합니다. 캐릭터 숨김·배경 표시·메뉴 설정은 기존 이벤트로 처리합니다. 이동 버튼은 제공하지 않으며, 필요한 경우 이벤트에 기본 **장소 이동** 명령을 작성합니다.
 - 이벤트 실행·대화·화면 전환 중에는 조사 입력을 처리하지 않습니다. 마우스 오버 표시는 PC 마우스 기준이며, 같은 입력·맵 씬·캐릭터 이동을 변경하는 다른 플러그인과의 호환성은 별도 확인이 필요합니다.
+
+---
+
+## 포그 시스템 사용
+
+- [소개 영상 — Fog and Flashlight Vision in RPG Maker MZ](https://www.youtube.com/watch?v=oczxNcRuXbQ)
+- `Akena_Fog.js`를 추가하고 ON으로 설정합니다. 별도 이미지 없이 사용할 수 있습니다.
+- 적용할 맵의 메모에 `<AkenaFog>`를 입력합니다. 태그 없는 맵에서는 자동으로 해제됩니다.
+- **표시 방식**에서 전체 방향 또는 바라보는 방향(손전등)을 선택합니다. 기본은 손전등·반경6타일·외곽 어둡기255입니다. 설정 변경 후 게임을 재시작하세요.
+- 시야 반경은 1~20의 정수 타일로 설정합니다.
+- 가까운 곳은 밝고 멀수록 어두워지며, 손전등 모드의 방향 전환은 부드럽게 이어집니다. 반경 끝 바깥0.5타일에서 완전히 가려집니다.
+- 벽 차단·탐험 기록은 없습니다. 벽 너머도 빛 범위 안이면 보이며 시야 밖은 다시 가립니다. 메뉴와 대화창은 가리지 않습니다.
+- 독자 카메라·조명 플러그인과의 조합은 별도 검수가 필요합니다.
 
 ---
 
