@@ -31,6 +31,7 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 | Akena_MG_MemoryCards | v1.0 | 전투 배경 위에서 액터 Face 이미지를 활용하는 카드 짝맞추기 미니게임 — 결과 변수/스위치 반환, 시작/종료 연출 지원 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_MG_MemoryCards.js) |
 | Akena_PointAndClick | — | 포인트 앤 클릭 — 그림의 지정 영역에 마우스를 올리면 표식을 표시하고 클릭하면 맵 이벤트 실행, 이벤트 페이지로 조사 완료 관리 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_PointAndClick.js) |
 | Akena_Fog | — | 맵별 원형·손전등 시야 제한 — 거리별 명암, 부드러운 방향 전환, 별도 이미지 불필요 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Fog.js) |
+| Akena_Stamina | — | Dash Stamina — 달리기 소모·회복, 고갈 후 대기·재달리기 기준, HUD 위치·크기·색상 설정 | [다운로드](https://raw.githubusercontent.com/pranaria/Akena-RMMZ-Plugins/main/Akena_Stamina.js) |
 
 ---
 
@@ -91,6 +92,19 @@ RPG Maker MZ 전용으로 제작한 Akena 플러그인 모음입니다.
 - 가까운 곳은 밝고 멀수록 어두워지며, 손전등 모드의 방향 전환은 부드럽게 이어집니다. 반경 끝 바깥0.5타일에서 완전히 가려집니다.
 - 벽 차단·탐험 기록은 없습니다. 벽 너머도 빛 범위 안이면 보이며 시야 밖은 다시 가립니다. 메뉴와 대화창은 가리지 않습니다.
 - 독자 카메라·조명 플러그인과의 조합은 별도 검수가 필요합니다.
+
+---
+
+## Dash Stamina 사용
+
+- [소개 영상 — 44 Dash Stamina](https://www.youtube.com/watch?v=k2pgK6EyosY)
+- `Akena_Stamina.js`를 추가하고 ON으로 설정합니다. 별도 이미지·이벤트 설정·플러그인 명령 없이 사용할 수 있습니다.
+- 기본 대시 조작을 따르며, 실제로 달려 이동할 때만 스태미나를 소모합니다. 벽에 막혀 제자리인 경우에는 소모하지 않습니다.
+- 기본값은 **연속 달리기 5초 / 초당 회복량 20(전체 100 기준) / 고갈 시 회복 대기 2초 / 재달리기 최소 잔량 20%**입니다. 회복량 20은 잔량 30에서 1초 뒤 50이 된다는 뜻입니다.
+- 잔량을 남긴 채 달리기를 멈추거나 걸으면 즉시 회복합니다. 고갈되면 걷기는 유지하고 달리기만 제한하며, 대기 시간 후 회복해 최소 잔량에 도달하면 다시 달릴 수 있습니다.
+- HUD는 맵에서 항상 표시됩니다. 기본은 X24 / Y24 / 너비200 / 높이14픽셀이며, 화면 왼쪽 위를 기준으로 위치·크기·색상을 조절합니다. 설정 변경 후 플레이테스트를 다시 시작하세요.
+- 대화·메뉴·강제 이동 중에는 소모·회복·고갈 후 대기 시간 진행을 멈춥니다. 현재 잔량·고갈 제한·남은 회복 대기는 저장/불러오기에 유지됩니다.
+- 이벤트·아이템을 통한 값 변경과 성장 기능은 포함하지 않습니다. 다른 이동·대시·HUD 플러그인과 함께 사용할 때는 조합을 확인하세요.
 
 ---
 
